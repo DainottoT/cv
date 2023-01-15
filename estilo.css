@@ -1,0 +1,92 @@
+
+#Curriculum {
+    display: none;
+}
+
+
+.subtitulo  
+{
+    width: 300px;
+    height: 30px;
+    background: pink;
+    padding: 5px;
+    border: 1px solid deeppink;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.datos {
+    width: 800px;
+    height: 200px;
+    background: lightgoldenrodyellow;
+    padding: 5px;
+    border: 1px solid deeppink;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large;
+    
+}
+
+body {
+    background-image: url("fondo.jpg");
+    background-image: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1 {
+    color:black;
+    font-size: 50px;
+    background: lightgoldenrodyellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border-radius: 30px;
+    padding: 5px;
+    border: 10px solid deeppink;
+}
+
+th, td {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 110px;
+  }
+
+.contenedordatos {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+#iniciar {
+    color:black;
+    font-size: 30px;
+    background: lightgoldenrodyellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: 70px;
+    background: pink;
+    padding: 5px;
+    border: 1px solid deeppink;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+}
+
+.img.alineadoTextoImagenAbajo{
+    vertical-align: text-bottom;  
+  
+  }
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 60px;
+    border: 2px solid hotpink;
+}
